@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">E-buy</string>
+    <string name="join_now">Join Now</string>
+    <string name="already_have_an_account_login">Already have an Account?Login</string>
+    <string name="login">Login</string>
+    <string name="foget_password">Foget Password?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="create_account">Create Account</string>
+</resources>
