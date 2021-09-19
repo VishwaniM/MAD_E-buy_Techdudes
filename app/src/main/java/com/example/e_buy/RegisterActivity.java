@@ -22,14 +22,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
-import javax.xml.validation.Validator;
 
 public class RegisterActivity extends AppCompatActivity {
 
     private Button CreateAccountButton;
     private EditText InputName, InputPhoneNumber, InputPassword;
     private ProgressDialog loadingBar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-
     private void CreateAccount() {
-
         String name = InputName.getText().toString();
         String phone = InputPhoneNumber.getText().toString();
         String password = InputPassword.getText().toString();
@@ -74,7 +70,6 @@ public class RegisterActivity extends AppCompatActivity {
 
             ValidatephoneNumber(name, phone, password);
         }
-
     }
 
     private void ValidatephoneNumber(String name, String phone, String password) {
@@ -129,5 +124,8 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+
     }
+
+
 }
