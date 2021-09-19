@@ -44,6 +44,9 @@ public class LoginActivity extends AppCompatActivity {
         InputPhoneNumber = (EditText) findViewById(R.id.login_phone_number_input);
         loadingBar = new ProgressDialog(this);
 
+        chkBoxRememberMe = (CheckBox) findViewById(R.id.remember_me_chkb);
+        Paper.init(this);
+
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,6 +77,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void AllowAccessToAccount(String phone, String password) {
+
+        if (chkBoxRememberMe.isChecked()) {
+            Paper.book().write(Prevalent.UserPhoneKey, phone);
+            Paper.book().write(Prevalent.UserPasswordKey, password);
+        }
 
         final DatabaseReference RootRef;
         RootRef = FirebaseDatabase.getInstance().getReference();
