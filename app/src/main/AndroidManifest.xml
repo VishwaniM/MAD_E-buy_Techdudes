@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebuy">
         <activity
+            android:name=".AdminAddNewProductActivity"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/Theme.Ebuy.NoActionBar"></activity>
+            android:theme="@style/Theme.Ebuy.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
