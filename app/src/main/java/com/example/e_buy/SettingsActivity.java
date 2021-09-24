@@ -248,7 +248,7 @@ public class SettingsActivity extends AppCompatActivity
                     {
                         String image = dataSnapshot.child("image").getValue().toString();
                         String name = dataSnapshot.child("name").getValue().toString();
-                        String phone = dataSnapshot.child("phone").getValue().toString();
+                        String phone = dataSnapshot.child("phoneOrder").getValue().toString();
                         String address = dataSnapshot.child("address").getValue().toString();
 
                         Picasso.get().load(image).into(profileImageView);
