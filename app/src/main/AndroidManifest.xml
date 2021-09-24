@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebuy">
         <activity
+            android:name=".AdminCategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".AdminAddNewProductActivity"
             android:exported="true" />
         <activity
