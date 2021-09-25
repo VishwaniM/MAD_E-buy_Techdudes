@@ -19,4 +19,16 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="settingsupdate">Update</string>
+    <string name="settingsclose">Close</string>
+    <string name="settingschange_profile">Change Profile</string>
+    <string name="settings_hint_phone_number">Phone Number...</string>
+    <string name="settings_hint_full_name">Full Name...</string>
+    <string name="settings_hint_address">Address...</string>
+    <string name="next">Next</string>
+    <string name="product_name_cart">Product Name</string>
+    <string name="product_quantity_cart">Product Quantity</string>
+    <string name="product_price_cart">Product Price</string>
+    <string name="congratulation_final_order_has_been_placed_successfully">Congratulation, final order has been placed successfully. Soon it will be verified.</string>
+    <string name="please_confirm_your_shipment_details">Please Confirm your Shipment Details</string>
 </resources>
