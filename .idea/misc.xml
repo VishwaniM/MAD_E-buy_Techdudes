@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/activity_admin_category.xml" value="0.259375" />
-        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/activity_admin_new_orders.xml" value="0.259375" />
-        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/orders_layout.xml" value="0.259375" />
+        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/activity_admin_category.xml" value="0.21784420289855072" />
+        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/activity_admin_maintain_products.xml" value="0.20520833333333333" />
+        <entry key="..\:/MAD_E-buy_Techdudes/app/src/main/res/layout/product_items_layout.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
