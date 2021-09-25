@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AdminUserProductsActivity"
+            android:exported="true" />
+        <activity
             android:name=".AdminMaintainProductsActivity"
             android:exported="true" />
         <activity android:name=".ConfirmFinalOrderActivity" />
