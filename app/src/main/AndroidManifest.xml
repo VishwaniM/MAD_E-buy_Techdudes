@@ -10,9 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebuy">
         <activity
+            android:name=".Sellers.SellerCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Sellers.SellerAddNewProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Sellers.SellerHomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_seller_home" />
+        <activity
+            android:name=".Sellers.SellerLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Sellers.SellerRegistrationActivity"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:theme="@style/Theme.Ebuy.NoActionBar"></activity>
+            android:theme="@style/Theme.Ebuy.NoActionBar" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
