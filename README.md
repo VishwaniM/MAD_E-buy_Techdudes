@@ -9,4 +9,4 @@ So Ebuy is the best platform to satisfy your every desire which is far from your
 Unlike other platforms Ebuy is the perfect opportunity to save your time and purchase the finest.
 
 Video Link: https://www.linkedin.com/posts/vishwani-madushika-a03238206_sliit-ebuy-android-activity-6847835132682895361-GNLf
-Project Report:  https://drive.google.com/file/d/1WTGDWfINFi6YGaTEesd8uquojJgNRE_U/view?usp=sharing
+Project Report: https://drive.google.com/file/d/1WTGDWfINFi6YGaTEesd8uquojJgNRE_U/view?usp=sharing
